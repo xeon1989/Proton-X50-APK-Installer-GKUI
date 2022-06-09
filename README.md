@@ -16,7 +16,7 @@ Modification has been made to adapt Malaysian's Proton X50 Infortainment System.
 
 ![image](https://user-images.githubusercontent.com/17538895/172921723-633a95b0-e1a9-4afc-863a-fb2cf6f0aa0c.png)
 
-7. Edit script according to name of APK with Notepad++ (https://notepad-plus-plus.org/downloads/). In my example, I used ES File Explorer (ES.apk). Avoid edit with Windows built in Notepad as we will have issue with EOL after file saved. 
+7. Edit script according to name of APK with Notepad++ (https://notepad-plus-plus.org/downloads/). In my example, I installing ES File Explorer (ES.apk). Avoid edit with Windows built in Notepad as it's having issue with EOL after file saved. 
 
 Following part needs to be changed according to your APK file.
 
