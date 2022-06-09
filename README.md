@@ -26,8 +26,8 @@ For my example, it would look like this:
 
 ![image](https://user-images.githubusercontent.com/17538895/172922529-2c4865e2-7c0e-4778-a545-15108affe0ec.png)
 
-7. Save changes and unplug USB drive. Plug it to your Infortainment system's USB port and wait for installation and reboot,
-8. See new app in menu.
+7. Save changes and plug your USB onto Infortainment system's USB port and wait for installation and reboot.
+8. Now you have new apps in menu.
 
 --Picture of ES File explorer installed goes here--
 
