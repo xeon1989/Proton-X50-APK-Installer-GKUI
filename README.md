@@ -1,4 +1,4 @@
-# Proton-x50-HU-APK-installer
+# Proton-X50-HU-APK-installer
 A script to install your own APK in Proton X50 Infortainment System.
 
 This script are based on installation script in Russian forum 4pda, written for Russian variant Geely Coolray. 
