@@ -7,8 +7,8 @@ https://4pda.to/forum/index.php?showtopic=1001500&st=600#entry107246765
 
 Modification has been made to adapt Malaysian's Proton X50 Infortainment System.
 
-# Steps to prepare the script in USB drive
-1. Download app of your choice in APK format. You may get it from website such as APKpure.com (https://m.apkpure.com/). 
+# Steps to prepare USB drive
+1. Download app of your choice in APK format. You may get it from website such as [APKpure.com](https://m.apkpure.com/) or [APKMirror.com](https://www.apkmirror.com/). 
 2. Get a USB drive. Backup your files in USB drive if you need as the next steps delete all files on USB drive. 
 3. Format your USB drive as file system FAT32. 
 4. Download installation script and unzip the file. Place all files under the root of USB drive.
@@ -16,7 +16,7 @@ Modification has been made to adapt Malaysian's Proton X50 Infortainment System.
 
 ![image](https://user-images.githubusercontent.com/17538895/172921723-633a95b0-e1a9-4afc-863a-fb2cf6f0aa0c.png)
 
-7. Edit script according to name of APK with Notepad++ (https://notepad-plus-plus.org/downloads/). In my example, I installing ES File Explorer (ES.apk). Avoid edit with Windows built in Notepad as it's having issue with EOL after file saved. 
+7. Edit script according to name of APK with [Notepad++](https://notepad-plus-plus.org/downloads/). In my example, I installing ES File Explorer (ES.apk). Avoid edit with Windows built in Notepad as it's having issue with EOL after file saved. 
 
 Following part needs to be changed according to your APK file.
 
@@ -53,9 +53,35 @@ In done.sh, it basically do following things:
 
 # What if things goes wrong?
 As the script only copy apps to Infortainment system, it does not perform any changes nor root your head unit. 
-You can revert all changes by performing Factory Restore in Settings. 
+You can revert all changes by performing Factory Reset in Settings. 
 
 # Important point to take note
-- Supported GKUI version: xxx.
 - You need to choose APK compatible with Android 5.1. 
 - Please do this at your own risk.
+
+# Frequently asked question
+
+**Q: How do I install the app xxx, yyy or zzz?**
+
+**A: Please follow steps above and do it one at a time.**
+##
+**Q: App xxx not working on my head unit, please fix!**
+
+**A: Not every app are compatible with our (outdated) Infortainment system. Please make sure your app supports Android 5.1 and optimized for landscape screen. Some app that require Google Services might not works too.**
+##
+**Q: But I have too many apps to install! Can I do all at once?**
+
+**A: If you know how to work with shell command, you can ammend done.sh to copy multiple app + set permission.**
+##
+**Q: I followed your steps and it broke my head unit!**
+
+**A: Please submit an issue in case you see any error, I will try answer as much as I can. Ultimately, you may reset your HU by performing Factory Reset in Settings.**
+##
+**Q: Can I get your help to fix for me?**
+
+**A: Please take note that I provide no warranty nor "after sales support". In case you need after sales service, kindly consider paid service where they thoroughly tested their apps.**
+##
+**Q: Awesome! How can I support you?**
+
+**A: Thanks for your support! If this is helpful, please consider to buy me a coffee at <donation links here>.**
+##
