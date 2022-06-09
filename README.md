@@ -11,10 +11,14 @@ Modification has been made to adapt Malaysian's Proton X50 Infortainment System.
 2. Get a USB drive. Backup your files in USB drive as needed. 
 3. Format your USB drive as file system FAT32
 4. Download installation script and unzip the file. Place all files under the root of USB drive. It should look like this. 
-<some screenshot here>
+
+![image_placeholder](https://user-images.githubusercontent.com/17538895/172777322-2e1b398d-35e4-4a5e-b8a6-b3042f447dea.jpg)
+
 5. Copy your APK file to root of USB drive, same level as scripts in step 4. 
 6. Change script according to APK name. 
-<some more screen shot here>
+
+![image_placeholder](https://user-images.githubusercontent.com/17538895/172777333-7af2845f-8714-4ab8-a514-b962f77eccc9.jpg)
+
 7. plug and wait for HU reboot,
 8. See new app in menu.
 
@@ -24,3 +28,8 @@ By placing the script in predefined directory on a USB drive, we can make use of
 
 # Technical details of the scripts
 xxx
+
+# Important point to take note
+- Supported GKUI version: xxx.
+- You need to choose APK compatible with Android 5.1. 
+- Please do this at your own risk.
