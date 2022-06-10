@@ -1,4 +1,4 @@
-# Technical details (the boring part)
+# Technical detail (the boring part)
 Infortainment System are trying to run bash scripts at \b832bc61472727635baffcf25dd28e9f239273e2\d4ad0e797c738a44a9dd1b9231d201e8374dfda2.sh from USB drive.
 Therefore, this bash script has been placed to trigger another bash script "done.sh" at root of USB drive. 
 
