@@ -83,5 +83,12 @@ You can revert all changes by performing Factory Reset in Settings.
 ##
 **Q: Awesome! How can I support you?**
 
-**A: Thanks for your support! If this is helpful, please consider to buy me a coffee at (donation links here).**
+**A: Thanks for your support! If this is helpful, please consider to buy me a coffee at following platform.
+
+Ko-fi: https://ko-fi.com/xeon1989
+
+BTC: xxx
+
+ETH: xxx
+**
 ##
