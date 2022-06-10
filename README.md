@@ -7,33 +7,30 @@ https://4pda.to/forum/index.php?showtopic=1001500&st=600#entry107246765
 
 Modification has been made to adapt Malaysian's Proton X50 Infortainment System.
 
+# Concept
+The underlying system running Proton X50 Infotainment System are based on Android 5.1.
+
+Apps can be installed by copying file explorer apk to /data/app folder, then install APK through file explorer. 
+
+The Geely Coolray / Proton X50 head unit runs a script to actively read bash script in USB drive. 
+
+By placing the script in predefined directory on a USB drive, we can make use of the script to install the APK. 
+
+
 # Steps to prepare USB drive
-1. Download app of your choice in APK format. You may get it from website such as [APKpure.com](https://m.apkpure.com/) or [APKMirror.com](https://www.apkmirror.com/). 
+1. Download file explorer of your choice in APK format. In my example, I am using [ES File Explorer](https://m.apkpure.com/es-file-explorer-file-manager/com.estrongs.android.pop).  You may get it from [APKMirror.com](https://www.apkmirror.com/apk/es-global/es-file-explorer/es-file-explorer-4-2-9-2-1-release/) too. 
 2. Get a USB drive. Backup your files in USB drive if you need as the next steps delete all files on USB drive. 
 3. Format your USB drive as file system FAT32. 
 4. Download installation script and unzip the file. Place all files under the root of USB drive.
-5. Copy your APK file to root of USB drive, same level as scripts in step 4. Now the content of USB drive should look like this. 
+5. Copy your file explorer downloaded in step 1 to root of USB drive and rename it to ES.apk. Now the content of USB drive should look like this. 
 
 ![image](https://user-images.githubusercontent.com/17538895/172921723-633a95b0-e1a9-4afc-863a-fb2cf6f0aa0c.png)
 
-7. Edit script according to name of APK with [Notepad++](https://notepad-plus-plus.org/downloads/). In my example, I'm installing ES File Explorer (ES.apk). Avoid editing with Windows built in Notepad as it's having issue with EOL after file saved. 
-
-Following part needs to be changed according to your APK file.
-
-![image](https://user-images.githubusercontent.com/17538895/172922338-da687e55-e347-4cac-815f-50401002aa8a.png)
-
-For my example, it would look like this:
-
-![image](https://user-images.githubusercontent.com/17538895/172922529-2c4865e2-7c0e-4778-a545-15108affe0ec.png)
-
-7. Save changes and plug your USB onto Infortainment system's USB port and wait for installation and reboot.
-8. Now you have new apps in menu.
+6. Remove USB drive from PC and plug it onto Infotainment System's USB port and wait for installation and reboot.
+8. Now you have ES File Explorer installed.
 
 --Picture of ES File explorer installed goes here--
 
-# How it works
-The Geely Coolray / Proton X50 head unit runs a script to actively read bash script in USB drive. 
-By placing the script in predefined directory on a USB drive, we can make use of the script to install the APK. 
 
 # Technical details (the boring part)
 Infortainment System are trying to run bash scripts at \b832bc61472727635baffcf25dd28e9f239273e2\d4ad0e797c738a44a9dd1b9231d201e8374dfda2.sh from USB drive.
