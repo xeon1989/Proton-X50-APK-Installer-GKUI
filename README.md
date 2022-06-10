@@ -1,9 +1,7 @@
-# Proton-X50-HU-APK-installer
+# Proton-X50-APK-installer
 A script to install your own APK in Proton X50 Infortainment System.
 
-This script are based on installation script in Russian forum 4pda, written for Russian variant Geely Coolray. 
-
-https://4pda.to/forum/index.php?showtopic=1001500&st=600#entry107246765
+This script are based on installation script in [Russian forum 4pda](https://4pda.to/forum/index.php?showtopic=1001500&st=600#entry107246765), written for Russian variant Geely Coolray. 
 
 Modification has been made to adapt Malaysian's Proton X50 Infortainment System.
 
@@ -11,10 +9,6 @@ Modification has been made to adapt Malaysian's Proton X50 Infortainment System.
 The underlying system running Proton X50 Infotainment System are based on Android 5.1.
 
 Apps can be installed by copying file explorer apk to /data/app folder, then install APK through file explorer. 
-
-The Geely Coolray / Proton X50 head unit runs a script to actively read bash script in USB drive. 
-
-By placing the script in predefined directory on a USB drive, we can make use of the script to install the APK. 
 
 
 # Steps to prepare USB drive
