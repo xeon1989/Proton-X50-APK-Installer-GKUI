@@ -2,7 +2,7 @@
 A script in USB drive to install your own APK in Proton X50 Infotainment System.
 
 # Steps to prepare USB drive
-1. Download [Installation Script](https://github.com/xeon1989/Proton-X50-APK-Installer/blob/main/dist/Installation%20Script.zip) and file explorer of your choice in APK format. In my example, I am using [ES File Explorer](https://m.apkpure.com/es-file-explorer-file-manager/com.estrongs.android.pop).  You may get it from [APKMirror.com](https://www.apkmirror.com/apk/es-global/es-file-explorer/es-file-explorer-4-2-9-2-1-release/) too. 
+1. Download [Installation Script](https://github.com/xeon1989/Proton-X50-APK-Installer/releases/download/v0.5a/Installation.Script.zip) and file explorer of your choice in APK format. In my example, I am using [ES File Explorer](https://m.apkpure.com/es-file-explorer-file-manager/com.estrongs.android.pop).  You may get it from [APKMirror.com](https://www.apkmirror.com/apk/es-global/es-file-explorer/es-file-explorer-4-2-9-2-1-release/) too. 
 2. Get a USB drive. Backup your files in USB drive if you need as the next steps delete all files on USB drive. 
 3. Format your USB drive as file system FAT32. 
 4. Download installation script and unzip the file. Place all files under the root of USB drive.
@@ -24,7 +24,7 @@ A script in USB drive to install your own APK in Proton X50 Infotainment System.
 # How to uninstall
 
 1. Hold installed app until it jiggle, then uninstall it.
-2. For ES File Explorer, uninstall it with step 1, then format USB drive and paste unzipped [uninstallation script](https://github.com/xeon1989/Proton-X50-APK-Installer/blob/main/dist/Uninstallation%20script.zip) in root, plug onto Infotainment System's USB port and wait for reboot.  
+2. For ES File Explorer, uninstall it with step 1, then format USB drive and paste unzipped [uninstallation script](https://github.com/xeon1989/Proton-X50-APK-Installer/releases/download/v0.5a/Uninstallation.script.zip) in root, plug onto Infotainment System's USB port and wait for reboot.  
 3. Optional: It's recommended to restore factory settings in Settings too. 
 
 
