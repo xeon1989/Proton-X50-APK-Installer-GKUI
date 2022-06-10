@@ -62,10 +62,10 @@ We tested following working apps:
 ##
 **Q: I have issue with my head unit!**
 
-**A: Please follow [uninstallation steps](https://github.com/xeon1989/Proton-X50-APK-Installer/edit/main/README.md#how-to-uninstall) to revert the changes.  In case you see any bugs, please [submit an issue](https://github.com/xeon1989/Proton-X50-APK-Installer/issues).**
+**A: Please follow [uninstallation steps](https://github.com/xeon1989/Proton-X50-APK-Installer/edit/main/README.md#how-to-uninstall) to revert the changes.  For any bugs, please [submit an issue](https://github.com/xeon1989/Proton-X50-APK-Installer/issues).**
 ##
 **Q: Can I get your help to fix do for me?**
 
-**A: For now I do not provide support to install for you. No warranty nor "after sales support" provided too. In case you need after sales service, kindly consider paid service.**
+**A: For now I do not provide support to install for you. No warranty nor "after sales support" provided too. If after sales service is a must for you, kindly consider paid service.**
 ##
 
