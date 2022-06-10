@@ -26,65 +26,62 @@ By placing the script in predefined directory on a USB drive, we can make use of
 
 ![image](https://user-images.githubusercontent.com/17538895/172921723-633a95b0-e1a9-4afc-863a-fb2cf6f0aa0c.png)
 
-6. Remove USB drive from PC and plug it onto Infotainment System's USB port and wait for installation and reboot.
-8. Now you have ES File Explorer installed.
+6. Remove USB drive from PC and plug it onto Infotainment System's USB port and wait for installation and reboot. Now you have ES File Explorer installed.
+7. Fill your USB drive with APK of your choice on PC, plug it onto Infotainment System's USB port again.
+8. Launch ES File Explorer installed in step 6, browse USB drive and open APK file for installation. It prompts "Install blocked" as installation of unknown source app are not abled. Tap "Settings" to view the options.
 
---Picture of ES File explorer installed goes here--
+![image](https://user-images.githubusercontent.com/17538895/173135211-cc8a3703-e19a-4657-83b7-f87715a247d1.png)
+
+9. Enable "Unknown Sources" and redo step 8. Now you should able to install the app. 
+
+![image](https://user-images.githubusercontent.com/17538895/173135304-6040f394-4da5-4122-9687-25c39364c63e.png)
+
+
+# How to uninstall
+
+1. Hold installed app until it jiggle, then uninstall it.
+2. For ES File Explorer, uninstall it with step 1, then format USB drive and paste uninstallation script in root, plug onto Infotainment System's USB port and wait for reboot.  
+3. Optional: It's recommended to restore factory settings in Settings too. 
 
 
 # Technical details (the boring part)
-Infortainment System are trying to run bash scripts at \b832bc61472727635baffcf25dd28e9f239273e2\d4ad0e797c738a44a9dd1b9231d201e8374dfda2.sh from USB drive.
-Therefore, this bash script has been placed to trigger another bash script "done.sh" at root of USB drive. 
-
-![image](https://user-images.githubusercontent.com/17538895/172923228-8c41490f-fde7-44e5-b073-a555e740fdfc.png)
-
-In done.sh, it basically do following things:
-- mount /data partition
-- create new folder to place your APK file
-- copy your APK file from USB root directory and paste in /data/app
-- set correct permission
-- delete "point of entry" to avoid loop
-- sync file system change and reboot after 10 seconds
-
-![image](https://user-images.githubusercontent.com/17538895/172923573-18867149-4902-4a9a-ba6f-9d7f69d5b566.png)
+[See here](https://github.com/xeon1989/Proton-X50-APK-Installer/blob/main/Technical%20Detail.md)
 
 # What if things goes wrong?
 As the script only copy apps to Infortainment system, it does not perform any changes nor root your head unit. 
-You can revert all changes by performing Factory Reset in Settings. 
+You can revert all changes by [uninstall](https://github.com/xeon1989/Proton-X50-APK-Installer/edit/main/README.md#how-to-uninstall) and perform Factory Reset in Settings. 
 
 # Important point to take note
 - You need to choose APK compatible with Android 5.1. 
-- Please do this at your own risk.
+- Please do this at your own risk, I do not responsible for any damage / harm / Proton SA cari pasal and void your warranty.
 
 # Frequently asked question
 
 **Q: How do I install the app xxx, yyy or zzz?**
 
-**A: Please follow steps above and do it one at a time.**
+**A: Yes, maybe. Not all app compatible as we can see, you have to try. Make sure you got your app from trusted source.**
 ##
-**Q: App xxx not working on my head unit, please fix!**
+**Q: App xxx not working on my head unit!**
 
-**A: Not every app are compatible with our (outdated) Infortainment system. Please make sure your app supports Android 5.1 and optimized for landscape screen. Some app that require Google Services might not works too.**
+**A: Not every app compatible with our (outdated) Infortainment system. Please make sure your app supports Android 5.1 and optimized for landscape screen. Some app that require Google Services might not works too.**
+
+We tested following working apps:
+- Waze
+- Spotify
+- YouTube
+- Netflix
+
 ##
-**Q: But I have too many apps to install! Can I do all at once?**
+**Q: After install apps, headunit runs slow. What can I do?**
 
-**A: If you know how to work with shell command, you can ammend done.sh to copy multiple app + set permission.**
+**A: Not just the system are outdated, the hardware specification of Infotainment System aren't very updated too. Keep only the app you need. There might be some optimization can be made, please suggest me by [submitting an issue in Github](https://github.com/xeon1989/Proton-X50-APK-Installer/issues).**
 ##
-**Q: I followed your steps and it broke my head unit!**
+**Q: I have issue with my head unit!**
 
-**A: Please submit an issue in case you see any error, I will try answer as much as I can. Ultimately, you may reset your HU by performing Factory Reset in Settings.**
+**A: Please follow [uninstallation steps](https://github.com/xeon1989/Proton-X50-APK-Installer/edit/main/README.md#how-to-uninstall) to revert the changes.  In case you see any bugs, please [submit an issue](https://github.com/xeon1989/Proton-X50-APK-Installer/issues).**
 ##
-**Q: Can I get your help to fix for me?**
+**Q: Can I get your help to fix do for me?**
 
-**A: Please take note that I provide no warranty nor "after sales support". In case you need after sales service, kindly consider paid service where they thoroughly tested their apps.**
+**A: For now I do not provide support to install for you. No warranty nor "after sales support" provided too. In case you need after sales service, kindly consider paid service.**
 ##
-**Q: Awesome! How can I support you?**
 
-**A: Thanks for your support! If this is helpful, please consider to buy me a coffee at following platform.**
-
-**Ko-fi: https://ko-fi.com/xeon1989**
-
-**BTC: xxx**
-
-**ETH: xxx**
-##
