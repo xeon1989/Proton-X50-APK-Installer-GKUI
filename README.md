@@ -27,6 +27,13 @@ A script in USB drive to install your own APK in Proton X50 Infotainment System.
 3. Optional: It's recommended to restore factory settings in Settings afterwards. 
 
 
+# Frequently used apps
+
+- Android Auto: [HeadUnit Reloaded by B3IT](https://www.b3itlabs.com/prod.php?id=1)
+- Apple Carplay: Autokit & Carlinkit dongle
+- Youtube / Youtube Music: [Youtube Vanced](https://youtubevanced.com/) 
+
+
 # Technical details (the boring part)
 [See here](https://github.com/xeon1989/Proton-X50-APK-Installer/blob/main/Technical%20Detail.md)
 
