@@ -1,5 +1,5 @@
 # Proton-X50-APK-Installer
-A script in USB drive to install your own APK in Proton X50 Infotainment System.
+A script in USB drive to install your own apps in Proton X50 Infotainment System.
 
 # Changelog
 Script are now rewritten based suggestion and script by muncheno@LYN. 
