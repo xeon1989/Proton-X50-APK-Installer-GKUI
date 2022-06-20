@@ -1,3 +1,5 @@
+If the script helps you, feel free to support me at Ko-Fi. https://ko-fi.com/xeon1989 
+
 # Proton-X50-APK-Installer
 A script in USB drive to install your own APK in Proton X50 Infotainment System.
 
