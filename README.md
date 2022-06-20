@@ -1,4 +1,8 @@
 If the script helps you, feel free to support me at Ko-Fi. https://ko-fi.com/xeon1989 
+Disclaimer: 
+- I might able to see your email, name and address (if your card provide billing address) through payment gateway Stripe used by Ko-Fi, mentioned in [Ko-Fi's privacy policy](https://more.ko-fi.com/privacy). 
+- Full card number and CVC are NEVER visible by me. 
+- I will keep the personal info of you and any of the supporters confidential and safe.
 
 # Proton-X50-APK-Installer
 A script in USB drive to install your own APK in Proton X50 Infotainment System.
