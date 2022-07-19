@@ -1,3 +1,8 @@
+# Before you proceed
+Caution: The script does NOT work on the newer ATLAS OS.
+If you need the sideloaded app, avoid updating to newer OS until new way to sideload app or rollback to previous OS available.
+
+
 If the script helps you, feel free to support me at Ko-Fi. https://ko-fi.com/xeon1989 
 
 Disclaimer: 
