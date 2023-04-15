@@ -14,7 +14,7 @@ Disclaimer:
 A script in USB drive to install your own APK in Proton X50 Infotainment System.
 
 # Steps to prepare USB drive
-1. Download [Installation Script](https://github.com/xeon1989/Proton-X50-APK-Installer/releases/download/v0.5a/Installation.Script.zip). ES File explorer included. 
+1. Download [Installation Script](https://github.com/xeon1989/Proton-X50-APK-Installer-GKUI/releases/download/v0.9/Installation.Script-ES.zip). ES File explorer included. 
 2. Get a USB drive and format it as file system FAT32. 
 3. Unzip installation script, then place all files under the root of USB drive. Now the content of USB drive should look like this. 
 
