@@ -48,7 +48,7 @@ A script in USB drive to install your own APK in Proton X50 Infotainment System.
 
 # What if things goes wrong?
 As the script only copies apps to Infotainment system, it does not perform any changes nor root your head unit. 
-You can revert all changes by [uninstall](https://github.com/xeon1989/Proton-X50-APK-Installer/edit/main/README.md#how-to-uninstall) and performing Factory Reset in Settings. 
+You can revert all changes by uninstall and performing Factory Reset in Settings. 
 
 # Important point to take note
 - You need to choose an APK compatible with Android 5.1. 
